@@ -1,0 +1,38 @@
+html{
+	background-image: url(imagenes/mandarina.jpg);
+  background-repeat: no-repeat;
+  float: center;
+
+
+}
+.wrap{
+
+  width:80vmin; height:80vmin;
+  margin right: 950px;
+  background:inherit;
+  transform:scale(0.2) translatez(0px);
+  opacity:0;
+  transition:transform .5s, opacity .5s;
+}
+a{
+  position:absolute;
+  left:0; top:0;
+  width:47.5%; height:47.5%;
+  overflow:hidden;
+  transform:scale(.5) translateZ(0px);
+  background:#585247;
+}
+a div{
+  height:100%;
+  background-size:cover;
+  opacity:.5;
+  transition:opacity .5s;
+  border-radius:inherit;
+}
+a:nth-child(1){
+  border-radius:40vmin 0 0 0;
+  transform-origin: 110% 110%;
+  transition:transform .4s .15s;
+}
+a:nth-child(1) div{
+  background-image:url('imagenes/golmes
