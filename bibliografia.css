@@ -35,7 +35,7 @@ a:nth-child(1){
   transition:transform .4s .15s;
 }
 a:nth-child(1) div{
-  background-image:url('imagenes/golmessi.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(2){
   border-radius:0 40vmin 0 0;
@@ -44,7 +44,7 @@ a:nth-child(2){
   transition:transform .4s .2s;
 }
 a:nth-child(2) div{
-  background-image:url('imagenes/heladeria.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(3){
   border-radius:0 0 0 40vmin;
@@ -53,7 +53,7 @@ a:nth-child(3){
   transition:transform .4s .25s;
 }
 a:nth-child(3) div{
-  background-image:url('imagenes/celler.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(4){
   border-radius:0 0 40vmin 0;
@@ -62,7 +62,7 @@ a:nth-child(4){
   transition:transform .4s .3s;
 }
 a:nth-child(4) div{
-  background-image: url('https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg');
+  background-image: url('imagenes/jordi.jpg');
 }
 a:nth-child(5){
   width:55%;height:55%;
@@ -117,29 +117,18 @@ a:hover div{
 
 p{
 
-  margin-left: 545px;
+  margin-left: 500px;
   position: absolute;
   top: 210px;
 }
-.pareja{
+.persona{
 
-  margin-left: 545px;
+  margin-left: 500px;
   position: absolute;
   top: 230px;
-}
-.padres{
+  text-align: left;
 
-  margin-left: 545px;
-  position: absolute;
-  top: 250px;
 }
-.hermanos{
-
-  margin-left: 545px;
-  position: absolute;
-  top: 270px;
-}
-
 
 
 

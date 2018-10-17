@@ -33,7 +33,7 @@ a:nth-child(1){
   transition:transform .4s .15s;
 }
 a:nth-child(1) div{
-  background-image:url('imagenes/1.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(2){
   border-radius:0 40vmin 0 0;
@@ -42,7 +42,7 @@ a:nth-child(2){
   transition:transform .4s .2s;
 }
 a:nth-child(2) div{
-  background-image:url('imagenes/2.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(3){
   border-radius:0 0 0 40vmin;
@@ -51,7 +51,7 @@ a:nth-child(3){
   transition:transform .4s .25s;
 }
 a:nth-child(3) div{
-  background-image:url('imagenes/3.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(4){
   border-radius:0 0 40vmin 0;
@@ -60,7 +60,7 @@ a:nth-child(4){
   transition:transform .4s .3s;
 }
 a:nth-child(4) div{
-  background-image: url('imagenes/4.jpg');
+  background-image: url('imagenes/jordi.jpg');
 }
 a:nth-child(5){
   width:55%;height:55%;
@@ -113,65 +113,19 @@ a:hover div{
   transform:translatez(0px);
 }
 
-.pa{
-
-  margin-left: 600px;
-  position: absolute;
-  top: 100px;
-}
-
-.a{
+.yt{
 
 
-  margin-left: 600px;
-  position: absolute;
-  top: 150px;
+position: absolute;
+top: 200px;
+left: 550px;
 
 }
 
-.pb{
+.descripcion{
 
-  margin-left: 900px;
-  position: absolute;
-  top: 100px;
-}
-
-.b{
-
-
-  margin-left: 900px;
-  position: absolute;
-  top: 150px;
-}
-
-.pc{
-
-  margin-left: 900px;
-  position: absolute;
-  top: 350px;
-}
-
-.c{
-
-
-  margin-left: 900px;
-  position: absolute;
-  top: 400px;
-
-}
-
-.pd{
-
-  margin-left: 600px;
-  position: absolute;
-  top: 350px;
-}
-
-.d{
-
-
-  margin-left: 600px;
-  position: absolute;
-  top: 400px;
+position: absolute;
+top: 500px;
+left: 550px;
 
 }

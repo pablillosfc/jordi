@@ -12,14 +12,16 @@ html{
   transform:scale(0.2) translatez(0px);
   opacity:0;
   transition:transform .5s, opacity .5s;
+  
 }
 a{
   position:absolute;
-  left:0; top:0;
+  margin-right: 950px;
   width:47.5%; height:47.5%;
   overflow:hidden;
   transform:scale(.5) translateZ(0px);
   background:#585247;
+  
 }
 a div{
   height:100%;
@@ -34,7 +36,7 @@ a:nth-child(1){
   transition:transform .4s .15s;
 }
 a:nth-child(1) div{
-  background-image:url('imagenes/golmessi.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(2){
   border-radius:0 40vmin 0 0;
@@ -43,7 +45,7 @@ a:nth-child(2){
   transition:transform .4s .2s;
 }
 a:nth-child(2) div{
-  background-image:url('imagenes/heladeria.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(3){
   border-radius:0 0 0 40vmin;
@@ -52,7 +54,7 @@ a:nth-child(3){
   transition:transform .4s .25s;
 }
 a:nth-child(3) div{
-  background-image:url('imagenes/celler.jpg');
+  background-image:url('imagenes/jordi.jpg');
 }
 a:nth-child(4){
   border-radius:0 0 40vmin 0;
@@ -61,7 +63,7 @@ a:nth-child(4){
   transition:transform .4s .3s;
 }
 a:nth-child(4) div{
-  background-image: url('https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg');
+  background-image: url('imagenes/jordi.jpg');
 }
 a:nth-child(5){
   width:55%;height:55%;
@@ -71,7 +73,7 @@ a:nth-child(5){
   transform:scale(1);
 }
 a:nth-child(5) div{
-  background-image: url('imagenes/biografia.jpg') ;
+  background-image: url('imagenes/jordi.jpg') ;
 }
 span{
   position:relative;
@@ -113,20 +115,67 @@ a:hover div{
   opacity:1;
   transform:translatez(0px);
 }
+section{
 
-.celler{
+  margin-right: 950px;
+}
+h1{
+  margin-left: 580px;
+  position: absolute;
+  top: 100px;
+}
 
-  margin-left: 550px;
+p{
+  margin-left: 580px;
+  position: absolute;
+  top: 150px;
+}
+
+.compañia{
+
+  margin-left: 580px;
   position: absolute;
   top: 200px;
-
+  text-align: justify;
 }
 
-.historia{
+.hermanos{
 
-  margin-left: 550px;
+  margin-left: 580px;
   position: absolute;
-  top: 220px;
+  top: 250px;
+  width:400px;
+  height:200px;
+
 }
 
+.rocambolesc{
 
+  margin-left: 580px;
+  position: absolute;
+  top: 450px;
+}
+
+.article{
+
+  margin-left: 580px;
+  position: absolute;
+  top: 500px;
+  text-align: left;
+}
+.franquicia{
+
+  margin-left: 580px;
+  position: absolute;
+  top: 570px;
+  text-align: left;
+}
+
+.heladeria{
+
+  margin-left: 580px;
+  position: absolute;
+  top: 630px;
+  width:400px;
+  height:200px;
+}
